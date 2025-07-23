@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/IntroToQML">/home/mrbombastic/Software/Qt Academi/QML-for-Beginners-Challenges-Intro-to-QML/StartingProject/build/Desktop_Qt_6_7_2-Debug/IntroToQML</file>
+
+  </qresource>
+</RCC>

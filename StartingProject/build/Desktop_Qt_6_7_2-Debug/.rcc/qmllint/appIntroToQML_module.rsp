@@ -1,0 +1,10 @@
+-I
+/home/mrbombastic/Software/Qt Academi/QML-for-Beginners-Challenges-Intro-to-QML/StartingProject/build/Desktop_Qt_6_7_2-Debug
+-I
+/home/mrbombastic/Qt/6.7.2/gcc_64/./qml
+--resource
+/home/mrbombastic/Software/Qt Academi/QML-for-Beginners-Challenges-Intro-to-QML/StartingProject/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_IntroToQML.qrc
+--resource
+/home/mrbombastic/Software/Qt Academi/QML-for-Beginners-Challenges-Intro-to-QML/StartingProject/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appIntroToQML_raw_qml_0.qrc
+--module
+IntroToQML

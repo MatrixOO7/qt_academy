@@ -1,0 +1,8 @@
+#!/bin/sh
+
+/home/mrbombastic/Qt/6.9.0/gcc_64/libexec/qt-android-runner.py \
+    --adb "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/platform-tools/adb" \
+    --build-path "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/android-build-appCalculator" \
+    --apk "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/android-build-appCalculator/appCalculator.apk" \
+    $@
+

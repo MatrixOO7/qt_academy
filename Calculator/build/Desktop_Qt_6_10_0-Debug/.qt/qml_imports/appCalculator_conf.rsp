@@ -1,0 +1,14 @@
+-rootPath
+/home/mrbombastic/Software/Qt_Projects/Calculator
+-cmake-output
+-output-file
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Desktop_Qt_6_10_0-Debug/.qt/qml_imports/appCalculator_conf.cmake
+-importPath
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Desktop_Qt_6_10_0-Debug/Calculator
+-importPath
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Desktop_Qt_6_10_0-Debug
+-importPath
+/home/mrbombastic/Qt/6.10.0/gcc_64/qml
+-qrcFiles
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Desktop_Qt_6_10_0-Debug/.qt/rcc/qmake_Calculator.qrc
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Desktop_Qt_6_10_0-Debug/.qt/rcc/appCalculator_raw_qml_0.qrc

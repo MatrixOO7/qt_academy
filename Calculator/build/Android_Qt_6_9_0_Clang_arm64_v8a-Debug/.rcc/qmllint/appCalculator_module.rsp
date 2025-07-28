@@ -1,0 +1,10 @@
+-I
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug
+-I
+/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/qml
+--resource
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qt/rcc/qmake_Calculator.qrc
+--resource
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qt/rcc/appCalculator_raw_qml_0.qrc
+--module
+Calculator

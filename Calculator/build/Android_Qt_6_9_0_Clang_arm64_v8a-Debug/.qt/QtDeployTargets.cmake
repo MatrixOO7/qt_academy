@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appCalculator_FILE /home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/libappCalculator_arm64-v8a.so)
+set(__QT_DEPLOY_TARGET_appCalculator_TYPE MODULE_LIBRARY)

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Calculator">/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/Calculator</file>
+
+  </qresource>
+</RCC>

@@ -1,0 +1,481 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Android - 23 - aarch64
+      The host system is: Linux - 6.14.0-24-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ 
+      Build flags: -DQT_QML_DEBUG
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/3.30.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-LNxePx"
+      binary: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-LNxePx"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-LNxePx'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_fce5f
+        [1/2] /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -c /home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+        Target: aarch64-none-linux-android23
+        Thread model: posix
+        InstalledDir: /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin
+         (in-process)
+         "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android23 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-LNxePx -resource-dir /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D QT_QML_DEBUG -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include -internal-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -fdebug-compilation-dir=/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-LNxePx -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+        ignoring nonexistent directory "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1
+         /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include
+         /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android
+         /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+        End of search list.
+        [2/2] : && /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections -v CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fce5f  -latomic -lm && :
+        Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+        Target: aarch64-none-linux-android23
+        Thread model: posix
+        InstalledDir: /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin
+         "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_fce5f /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o -L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/aarch64 -L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23 -L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android -L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -lc++ -lm /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+          add: [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include]
+          add: [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android]
+          add: [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1] ==> [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+        collapse include dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include] ==> [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include]
+        collapse include dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android]
+        collapse include dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        implicit include dirs: [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1;/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include;/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android;/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-LNxePx']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_fce5f]
+        ignore line: [[1/2] /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -c /home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+        ignore line: [Target: aarch64-none-linux-android23]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android23 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-LNxePx -resource-dir /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D QT_QML_DEBUG -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include -internal-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -fdebug-compilation-dir=/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-LNxePx -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1]
+        ignore line: [ /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include]
+        ignore line: [ /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android]
+        ignore line: [ /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --gc-sections -Qunused-arguments -Wl --no-undefined  -Wl --gc-sections -v CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fce5f  -latomic -lm && :]
+        ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+        ignore line: [Target: aarch64-none-linux-android23]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        link line: [ "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_fce5f /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o -L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/aarch64 -L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23 -L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android -L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -lc++ -lm /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o]
+          arg [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+          arg [--sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_fce5f] ==> ignore
+          arg [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o] ==> obj [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o]
+          arg [-L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/aarch64] ==> dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/aarch64]
+          arg [-L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23] ==> dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23]
+          arg [-L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android]
+          arg [-L/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_fce5f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-latomic] ==> lib [atomic]
+          arg [-lm] ==> lib [m]
+          arg [-lc++] ==> lib [c++]
+          arg [-lm] ==> lib [m]
+          arg [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o] ==> obj [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o]
+        linker tool for 'CXX': /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld
+        remove lib [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse library dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/aarch64] ==> [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/aarch64]
+        collapse library dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23] ==> [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23]
+        collapse library dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android]
+        collapse library dir [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit libs: [atomic;m;c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o;/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o]
+        implicit dirs: [/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/lib/linux/aarch64;/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23;/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android;/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" "-v"
+      LLD 17.0.2 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:162 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:20 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:297 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-gtZJEQ"
+      binary: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-gtZJEQ"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-gtZJEQ'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_94afd
+        [1/2] /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_94afd.dir/src.cxx.o -MF CMakeFiles/cmTC_94afd.dir/src.cxx.o.d -o CMakeFiles/cmTC_94afd.dir/src.cxx.o -c /home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-gtZJEQ/src.cxx
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_94afd.dir/src.cxx.o 
+        /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_94afd.dir/src.cxx.o -MF CMakeFiles/cmTC_94afd.dir/src.cxx.o.d -o CMakeFiles/cmTC_94afd.dir/src.cxx.o -c /home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-gtZJEQ/src.cxx
+        /home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-gtZJEQ/src.cxx:13:3: error: use of undeclared identifier 'pthread_cancel'
+          pthread_cancel(thread);
+          ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:162 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:20 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:297 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-yuhXYQ"
+      binary: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-yuhXYQ"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-yuhXYQ'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_81495
+        [1/2] /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_81495.dir/CheckForPthreads.cxx.o -MF CMakeFiles/cmTC_81495.dir/CheckForPthreads.cxx.o.d -o CMakeFiles/cmTC_81495.dir/CheckForPthreads.cxx.o -c /home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-yuhXYQ/CheckForPthreads.cxx
+        [2/2] : && /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections CMakeFiles/cmTC_81495.dir/CheckForPthreads.cxx.o -o cmTC_81495  -pthread   -latomic -lm && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:137 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:297 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-GeXRXb"
+      binary: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-GeXRXb"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-GeXRXb'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_75a34
+        [1/2] /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_STDATOMIC  -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_75a34.dir/src.cxx.o -MF CMakeFiles/cmTC_75a34.dir/src.cxx.o.d -o CMakeFiles/cmTC_75a34.dir/src.cxx.o -c /home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-GeXRXb/src.cxx
+        [2/2] : && /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections CMakeFiles/cmTC_75a34.dir/src.cxx.o -o cmTC_75a34  -latomic -lm && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:128 (check_cxx_source_compiles)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/FindGLESv2.cmake:13 (find_package)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:137 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:297 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_EGL"
+    directories:
+      source: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-NhIfUs"
+      binary: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-NhIfUs"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_EGL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-NhIfUs'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_ba8f8
+        [1/2] /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_EGL  -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_ba8f8.dir/src.cxx.o -MF CMakeFiles/cmTC_ba8f8.dir/src.cxx.o.d -o CMakeFiles/cmTC_ba8f8.dir/src.cxx.o -c /home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-NhIfUs/src.cxx
+        [2/2] : && /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections CMakeFiles/cmTC_ba8f8.dir/src.cxx.o -o cmTC_ba8f8  /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libEGL.so   -latomic -lm && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/FindGLESv2.cmake:28 (check_cxx_source_compiles)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "/home/mrbombastic/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:137 (find_dependency)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:297 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_GLESv2"
+    directories:
+      source: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-xZBYvo"
+      binary: "/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-xZBYvo"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_GLESv2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-xZBYvo'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_07245
+        [1/2] /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_GLESv2  -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_07245.dir/src.cxx.o -MF CMakeFiles/cmTC_07245.dir/src.cxx.o.d -o CMakeFiles/cmTC_07245.dir/src.cxx.o -c /home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/CMakeFiles/CMakeScratch/TryCompile-xZBYvo/src.cxx
+        [2/2] : && /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DQT_QML_DEBUG   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections CMakeFiles/cmTC_07245.dir/src.cxx.o -o cmTC_07245  /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libGLESv2.so  /home/mrbombastic/Android/commandlinetools-linux-11076708_latest/cmdline-tools/bin/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libEGL.so   -latomic -lm && :
+        
+      exitCode: 0
+...

@@ -1,0 +1,14 @@
+-rootPath
+/home/mrbombastic/Software/Qt_Projects/Calculator
+-cmake-output
+-output-file
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qt/qml_imports/appCalculator_conf.cmake
+-importPath
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/Calculator
+-importPath
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug
+-importPath
+/home/mrbombastic/Qt/6.9.0/android_arm64_v8a/qml
+-qrcFiles
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qt/rcc/qmake_Calculator.qrc
+/home/mrbombastic/Software/Qt_Projects/Calculator/build/Android_Qt_6_9_0_Clang_arm64_v8a-Debug/.qt/rcc/appCalculator_raw_qml_0.qrc

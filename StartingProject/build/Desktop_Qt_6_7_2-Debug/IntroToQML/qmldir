@@ -1,5 +1,0 @@
-module IntroToQML
-typeinfo appIntroToQML.qmltypes
-prefer :/qt/qml/IntroToQML/
-Main 1.0 Main.qml
-

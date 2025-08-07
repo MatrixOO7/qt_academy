@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c9d7c9fe52a21bba5e26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "IntroToQtQuick_StartingProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-957c6f78310bec1930d8.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-6c03d09f4d506320fc08.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-020d9f96f2c2eb1fd5dc.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6364782ba1bef256fdb5.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appIntroToQtQuick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appIntroToQtQuick-Debug-383e9be79000c79748bf.json",
+					"name" : "appIntroToQtQuick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appIntroToQtQuick_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appIntroToQtQuick_autogen-Debug-0ef654403c60798913d8.json",
+					"name" : "appIntroToQtQuick_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appIntroToQtQuick_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appIntroToQtQuick_autogen_timestamp_deps-Debug-55fcb8763ceecac02f41.json",
+					"name" : "appIntroToQtQuick_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appIntroToQtQuick_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appIntroToQtQuick_qmlimportscan-Debug-d913bb36e8771c66aca9.json",
+					"name" : "appIntroToQtQuick_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appIntroToQtQuick_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appIntroToQtQuick_qmllint-Debug-891a0327911236233de4.json",
+					"name" : "appIntroToQtQuick_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appIntroToQtQuick_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appIntroToQtQuick_qmllint_json-Debug-e867fc2c7337c08024bb.json",
+					"name" : "appIntroToQtQuick_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appIntroToQtQuick_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appIntroToQtQuick_qmllint_module-Debug-7c4e054f41495b29c1ee.json",
+					"name" : "appIntroToQtQuick_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appIntroToQtQuick_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appIntroToQtQuick_qmltyperegistration-Debug-8c9a5fc34f99b87321e4.json",
+					"name" : "appIntroToQtQuick_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appIntroToQtQuick_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appIntroToQtQuick_tooling-Debug-367332809a40fd009b39.json",
+					"name" : "appIntroToQtQuick_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug",
+		"source" : "/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

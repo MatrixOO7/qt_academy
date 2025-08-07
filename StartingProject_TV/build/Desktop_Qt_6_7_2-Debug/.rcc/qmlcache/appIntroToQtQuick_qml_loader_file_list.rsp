@@ -1,0 +1,5 @@
+--resource
+/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_IntroToQtQuick.qrc
+--resource
+/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appIntroToQtQuick_raw_qml_0.qrc
+/qt/qml/IntroToQtQuick/Main.qml

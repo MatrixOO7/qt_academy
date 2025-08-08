@@ -786,6 +786,7 @@ Window {
     }
 
     DoubleButton {
+        // Program switch
         anchors {
             left: parent.left
             top: dPAD.bottom
@@ -799,6 +800,7 @@ Window {
     }
 
     DoubleButton {
+        // Volume switch
         anchors {
             right: parent.right
             top: dPAD.bottom

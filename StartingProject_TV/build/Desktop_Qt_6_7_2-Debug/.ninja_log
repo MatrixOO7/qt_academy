@@ -1,37 +1,57 @@
 # ninja log v5
-59	66	1753814364306404337	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/speaker.svg	a9b77cf5654ded6
-127	139	1753814364353407396	meta_types/appIntroToQtQuick_json_file_list.txt	659157c7476e4790
-61	82	1754570221751403113	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-26	32	1753814364273402189	IntroToQtQuick/images/closed_caption_white.svg	79070fc6b019807b
-66	72	1753814364313404792	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/volume_down.svg	7d16d4465ac5a37
-38	48	1753814364287403100	IntroToQtQuick/images/hdr_on_white.svg	9b09bfed53121ffb
-123	192	1753793967577448966	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/appintrotoqtquick_qmltyperegistrations.cpp	93e9ad465222f79d
-61	82	1754570221751403113	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-57	65	1753814364304404207	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/settings.svg	ff0887a96f3a8a38
-14	27	1753814364268401863	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/fonts/Silkscreen/Silkscreen-Regular.ttf	2540ce90bccea191
-14	27	1753814364268401863	IntroToQtQuick/fonts/Silkscreen/Silkscreen-Regular.ttf	2540ce90bccea191
-27	35	1753814364276402384	IntroToQtQuick/images/fast_forward.svg	8f461e35c949b848
-349	456	1753793967851359851	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_qmake_IntroToQtQuick.cpp.o	a968d46bd436dedb
-60	66	1753814364306404337	IntroToQtQuick/images/speaker_muted.svg	1d1e3a748e3931d8
-16	26	1753814364266401733	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/cast_connected.svg	1c00ecc68b57473c
-27	35	1753814364276402384	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/fast_forward.svg	8f461e35c949b848
-26	32	1753814364273402189	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/closed_caption_white.svg	79070fc6b019807b
-248	8808	1753814373028957973	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_qmlcache_loader.cpp.o	c9d39e9c4c8aece3
-52	59	1753814364300403946	IntroToQtQuick/images/plus.svg	70d43f6999bb0fdd
-38	48	1753814364287403100	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/hdr_on_white.svg	9b09bfed53121ffb
-57	65	1753814364304404207	IntroToQtQuick/images/settings.svg	ff0887a96f3a8a38
+17	25	1753814364267401798	IntroToQtQuick/images/cast_white.svg	cb721b2e84ee493a
+116	123	1753793967523358001	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/meta_types/qt6appintrotoqtquick_debug_metatypes.json	7587181b75aa8874
+34	43	1753814364285402970	IntroToQtQuick/images/hdr_on.svg	5840baebe97ddaa
+91	106	1753793967505357900	.qt/rcc/qrc_qmake_IntroToQtQuick.cpp	bb354500d8bf5ba8
+65	74	1753814364314404857	IntroToQtQuick/images/speaker_muted_white.svg	8a3161fc881fcdc7
+47	53	1753814364293403490	IntroToQtQuick/images/minus.svg	dd1b0a93b6ff37da
+60	66	1753814364306404337	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/speaker_muted.svg	1d1e3a748e3931d8
+51	324	1754652075009779071	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
+39	46	1753814364287403100	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/mic.svg	a18bbfb698cb0b1d
+101	122	1753795737285168046	appIntroToQtQuick_autogen/timestamp	16e54e1fe92d9520
+327	760	1754652075457731123	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
+25	34	1753814364274060618	IntroToQtQuick/images/closed_caption.svg	176fed5656ded0b6
+124	142	1753814364378936138	.rcc/qmlcache/appIntroToQtQuick_qmlcache_loader.cpp	dd72271117cf7dc7
+66	74	1753814364316404988	IntroToQtQuick/images/volume_up.svg	fe4b98fb8afb7dc6
+116	123	1753793967523358001	meta_types/qt6appintrotoqtquick_debug_metatypes.json.gen	7587181b75aa8874
+123	192	1753793967577448966	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/appIntroToQtQuick.qmltypes	93e9ad465222f79d
+123	192	1753793967577448966	IntroToQtQuick/appIntroToQtQuick.qmltypes	93e9ad465222f79d
+324	9046	1754652083716867766	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
+39	46	1753814364287403100	IntroToQtQuick/images/mic.svg	a18bbfb698cb0b1d
+127	139	1753814364353407396	meta_types/appIntroToQtQuick_json_file_list.txt.timestamp	659157c7476e4790
+32	39	1753814364280402644	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/fast_rewind.svg	83d68a18716d189e
+300	349	1753793967743359242	CMakeFiles/appIntroToQtQuick.dir/appIntroToQtQuick_autogen/mocs_compilation.cpp.o	cf51bd8e58ddc3c1
+32	39	1753814364280402644	IntroToQtQuick/images/fast_rewind.svg	83d68a18716d189e
+91	106	1753793967505357900	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_qmake_IntroToQtQuick.cpp	bb354500d8bf5ba8
+59	66	1753814364306404337	IntroToQtQuick/images/speaker.svg	a9b77cf5654ded6
 34	43	1753814364285402970	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/hdr_on.svg	5840baebe97ddaa
 101	122	1753795737285168046	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/appIntroToQtQuick_autogen/timestamp	16e54e1fe92d9520
-59	66	1753814364306404337	IntroToQtQuick/images/speaker.svg	a9b77cf5654ded6
-91	106	1753793967505357900	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_qmake_IntroToQtQuick.cpp	bb354500d8bf5ba8
 43	52	1753814364291403360	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/mic_white.svg	186845949bd0f3ba
 116	123	1753793967523358001	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/meta_types/qt6appintrotoqtquick_debug_metatypes.json.gen	7587181b75aa8874
-300	349	1753793967743359242	CMakeFiles/appIntroToQtQuick.dir/appIntroToQtQuick_autogen/mocs_compilation.cpp.o	cf51bd8e58ddc3c1
-32	39	1753814364280402644	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/fast_rewind.svg	83d68a18716d189e
-32	39	1753814364280402644	IntroToQtQuick/images/fast_rewind.svg	83d68a18716d189e
-61	324	1754570221975407568	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
+38	48	1753814364287403100	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/hdr_on_white.svg	9b09bfed53121ffb
+52	59	1753814364300403946	IntroToQtQuick/images/plus.svg	70d43f6999bb0fdd
+248	8808	1753814373028957973	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_qmlcache_loader.cpp.o	c9d39e9c4c8aece3
+26	32	1753814364273402189	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/closed_caption_white.svg	79070fc6b019807b
+27	35	1753814364276402384	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/fast_forward.svg	8f461e35c949b848
+51	324	1754652075009779071	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
+66	72	1753814364313404792	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/volume_down.svg	7d16d4465ac5a37
+27	35	1753814364276402384	IntroToQtQuick/images/fast_forward.svg	8f461e35c949b848
+59	66	1753814364306404337	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/speaker.svg	a9b77cf5654ded6
+127	139	1753814364353407396	meta_types/appIntroToQtQuick_json_file_list.txt	659157c7476e4790
+14	27	1753814364268401863	IntroToQtQuick/fonts/Silkscreen/Silkscreen-Regular.ttf	2540ce90bccea191
+16	26	1753814364266401733	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/cast_connected.svg	1c00ecc68b57473c
+60	66	1753814364306404337	IntroToQtQuick/images/speaker_muted.svg	1d1e3a748e3931d8
+349	456	1753793967851359851	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_qmake_IntroToQtQuick.cpp.o	a968d46bd436dedb
+14	27	1753814364268401863	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/fonts/Silkscreen/Silkscreen-Regular.ttf	2540ce90bccea191
+51	116	1754652074806800920	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
+26	32	1753814364273402189	IntroToQtQuick/images/closed_caption_white.svg	79070fc6b019807b
+57	65	1753814364304404207	IntroToQtQuick/images/settings.svg	ff0887a96f3a8a38
+57	65	1753814364304404207	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/settings.svg	ff0887a96f3a8a38
+123	192	1753793967577448966	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/appintrotoqtquick_qmltyperegistrations.cpp	93e9ad465222f79d
+38	48	1753814364287403100	IntroToQtQuick/images/hdr_on_white.svg	9b09bfed53121ffb
+51	116	1754652074806800920	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
 124	142	1753814364378936138	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_qmlcache_loader.cpp	dd72271117cf7dc7
-17	61	1754570221731958106	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
+10	51	1754652074755158954	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
 101	122	1753795737285168046	appIntroToQtQuick_autogen/mocs_compilation.cpp	16e54e1fe92d9520
 52	59	1753814364300403946	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/plus.svg	70d43f6999bb0fdd
 12	17	1753814364258656961	IntroToQtQuick/fonts/Silkscreen/Silkscreen-Bold.ttf	6fbe8633bfa7541e
@@ -43,138 +63,41 @@
 48	57	1753814364296403686	IntroToQtQuick/images/play_pause.svg	191747f529c95256
 65	74	1753814364314404857	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/speaker_muted_white.svg	8a3161fc881fcdc7
 48	57	1753814364296403686	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/play_pause.svg	191747f529c95256
-127	139	1753814364353407396	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/meta_types/appIntroToQtQuick_json_file_list.txt.timestamp	659157c7476e4790
+9046	9755	1754652084448793242	appIntroToQtQuick	bf06220ade3a6eab
+300	11067	1753793978430419503	CMakeFiles/appIntroToQtQuick.dir/main.cpp.o	50f772e117b93b1c
+43	52	1753814364291403360	IntroToQtQuick/images/mic_white.svg	186845949bd0f3ba
 16	26	1753814364266401733	IntroToQtQuick/images/cast_connected.svg	1c00ecc68b57473c
+127	139	1753814364353407396	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/meta_types/appIntroToQtQuick_json_file_list.txt.timestamp	659157c7476e4790
+123	192	1753793967577448966	appintrotoqtquick_qmltyperegistrations.cpp	93e9ad465222f79d
 66	74	1753814364316404988	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/volume_up.svg	fe4b98fb8afb7dc6
 66	72	1753814364313404792	IntroToQtQuick/images/volume_down.svg	7d16d4465ac5a37
 17	25	1753814364267401798	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/cast_white.svg	cb721b2e84ee493a
-123	192	1753793967577448966	appintrotoqtquick_qmltyperegistrations.cpp	93e9ad465222f79d
 25	34	1753814364274060618	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/closed_caption.svg	176fed5656ded0b6
+10	51	1754652074755158954	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
 47	53	1753814364293403490	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/minus.svg	dd1b0a93b6ff37da
-17	61	1754570221731958106	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-17	24	1754570221694401980	IntroToQtQuick/Main.qml	b99500c3f5046669
-53	59	1753814364299403881	IntroToQtQuick/images/power.svg	620e421f5b4835d3
+10	14	1754652074718810394	IntroToQtQuick/Main.qml	b99500c3f5046669
 101	122	1753795737285168046	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/appIntroToQtQuick_autogen/mocs_compilation.cpp	16e54e1fe92d9520
-17	24	1754570221694401980	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-43	52	1753814364291403360	IntroToQtQuick/images/mic_white.svg	186845949bd0f3ba
-300	11067	1753793978430419503	CMakeFiles/appIntroToQtQuick.dir/main.cpp.o	50f772e117b93b1c
-8053	8771	1754570230430576753	appIntroToQtQuick	bf06220ade3a6eab
-127	139	1753814364353407396	meta_types/appIntroToQtQuick_json_file_list.txt.timestamp	659157c7476e4790
-39	46	1753814364287403100	IntroToQtQuick/images/mic.svg	a18bbfb698cb0b1d
-325	8053	1754570229685561770	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-123	192	1753793967577448966	IntroToQtQuick/appIntroToQtQuick.qmltypes	93e9ad465222f79d
-123	192	1753793967577448966	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/appIntroToQtQuick.qmltypes	93e9ad465222f79d
-116	123	1753793967523358001	meta_types/qt6appintrotoqtquick_debug_metatypes.json.gen	7587181b75aa8874
-66	74	1753814364316404988	IntroToQtQuick/images/volume_up.svg	fe4b98fb8afb7dc6
-124	142	1753814364378936138	.rcc/qmlcache/appIntroToQtQuick_qmlcache_loader.cpp	dd72271117cf7dc7
-25	34	1753814364274060618	IntroToQtQuick/images/closed_caption.svg	176fed5656ded0b6
-325	732	1754570222394415911	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-101	122	1753795737285168046	appIntroToQtQuick_autogen/timestamp	16e54e1fe92d9520
-39	46	1753814364287403100	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/mic.svg	a18bbfb698cb0b1d
-61	324	1754570221975407568	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-60	66	1753814364306404337	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/images/speaker_muted.svg	1d1e3a748e3931d8
-47	53	1753814364293403490	IntroToQtQuick/images/minus.svg	dd1b0a93b6ff37da
-65	74	1753814364314404857	IntroToQtQuick/images/speaker_muted_white.svg	8a3161fc881fcdc7
-91	106	1753793967505357900	.qt/rcc/qrc_qmake_IntroToQtQuick.cpp	bb354500d8bf5ba8
-34	43	1753814364285402970	IntroToQtQuick/images/hdr_on.svg	5840baebe97ddaa
-116	123	1753793967523358001	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/meta_types/qt6appintrotoqtquick_debug_metatypes.json	7587181b75aa8874
-17	25	1753814364267401798	IntroToQtQuick/images/cast_white.svg	cb721b2e84ee493a
-8	14	1754594734592377218	IntroToQtQuick/Main.qml	b99500c3f5046669
-8	14	1754594734592377218	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-9	39	1754594734618251283	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-9	39	1754594734618251283	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-39	58	1754594734636376418	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-39	58	1754594734636376418	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-39	241	1754594734804373362	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-39	241	1754594734804373362	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-241	590	1754594735161366887	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-241	8198	1754594742738232835	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-8198	8918	1754594743486219949	appIntroToQtQuick	bf06220ade3a6eab
-14	20	1754594956740745819	IntroToQtQuick/Main.qml	b99500c3f5046669
-14	20	1754594956740745819	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-14	53	1754594956774078418	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-14	53	1754594956774078418	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-53	95	1754594956812745965	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-53	95	1754594956812745965	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-53	369	1754594957062746473	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-53	369	1754594957062746473	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-370	768	1754594957480747346	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-369	8267	1754594964949764939	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-8268	9005	1754594965713766970	appIntroToQtQuick	bf06220ade3a6eab
-12	21	1754595003688918939	IntroToQtQuick/Main.qml	b99500c3f5046669
-12	21	1754595003688918939	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-14	55	1754595003724452200	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-14	55	1754595003724452200	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-56	109	1754595003771919378	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-56	109	1754595003771919378	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-55	333	1754595003964920396	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-55	333	1754595003964920396	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-333	835	1754595004493923222	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-333	8128	1754595011756963781	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-8128	8894	1754595012547968409	appIntroToQtQuick	bf06220ade3a6eab
-11	24	1754595021720025008	IntroToQtQuick/Main.qml	b99500c3f5046669
-11	24	1754595021720025008	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-14	55	1754595021754392518	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-14	55	1754595021754392518	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-56	79	1754595021777025376	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-56	79	1754595021777025376	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-55	364	1754595022039027069	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-55	364	1754595022039027069	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-365	799	1754595022487029988	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-364	8447	1754595030104081456	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-8447	9351	1754595031037088011	appIntroToQtQuick	bf06220ade3a6eab
-10	20	1754595042531173250	IntroToQtQuick/Main.qml	b99500c3f5046669
-10	20	1754595042531173250	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-13	55	1754595042567587433	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-13	55	1754595042567587433	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-58	102	1754595042610173864	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-58	102	1754595042610173864	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-56	355	1754595042829175566	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-56	355	1754595042829175566	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-356	751	1754595043255178891	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-355	8220	1754595050691238698	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-8220	8980	1754595051479245233	appIntroToQtQuick	bf06220ade3a6eab
-16	23	1754595073860446251	IntroToQtQuick/Main.qml	b99500c3f5046669
-16	23	1754595073860446251	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-17	63	1754595073899634082	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-17	63	1754595073899634082	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-63	86	1754595073922446848	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-63	86	1754595073922446848	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-63	401	1754595074209449620	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-63	401	1754595074209449620	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-401	816	1754595074641453799	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-401	8120	1754595081907525670	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-8120	8846	1754595082671533406	appIntroToQtQuick	bf06220ade3a6eab
-10	24	1754595102549746106	IntroToQtQuick/Main.qml	b99500c3f5046669
-10	24	1754595102549746106	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-11	55	1754595102580949364	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-11	55	1754595102580949364	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-56	94	1754595102615746848	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-56	94	1754595102615746848	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-55	349	1754595102838749356	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-55	349	1754595102838749356	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-349	737	1754595103254754049	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-349	8149	1754595110635838851	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-8149	8882	1754595111395847750	appIntroToQtQuick	bf06220ade3a6eab
-13	22	1754595152196369831	IntroToQtQuick/Main.qml	b99500c3f5046669
-13	22	1754595152196369831	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-14	55	1754595152230430153	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-14	55	1754595152230430153	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-56	101	1754595152271370869	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-56	101	1754595152271370869	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-55	336	1754595152474373681	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-55	336	1754595152474373681	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-337	795	1754595152962380440	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-337	7746	1754595159881477609	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-7746	8472	1754595160635488343	appIntroToQtQuick	bf06220ade3a6eab
-11	20	1754595205088168597	IntroToQtQuick/Main.qml	b99500c3f5046669
-11	20	1754595205088168597	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
-13	55	1754595205123299953	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-13	55	1754595205123299953	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
-56	102	1754595205167169888	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-56	102	1754595205167169888	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
-55	322	1754595205369173189	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-55	322	1754595205369173189	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
-323	726	1754595205786180005	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
-322	8051	1754595213080300497	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
-8051	8775	1754595213832313055	appIntroToQtQuick	bf06220ade3a6eab
+53	59	1753814364299403881	IntroToQtQuick/images/power.svg	620e421f5b4835d3
+10	14	1754652074718810394	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
+27	42	1754652118130674465	IntroToQtQuick/Main.qml	b99500c3f5046669
+27	42	1754652118130674465	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
+29	117	1754652118207935120	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
+29	117	1754652118207935120	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
+122	201	1754652118287661252	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
+122	201	1754652118287661252	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
+118	514	1754652118587636007	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
+118	514	1754652118587636007	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
+515	893	1754652118971603692	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
+514	7964	1754652126022022693	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
+7965	8691	1754652126773962019	appIntroToQtQuick	bf06220ade3a6eab
+14	27	1754652152816996553	IntroToQtQuick/Main.qml	b99500c3f5046669
+14	27	1754652152816996553	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/Main.qml	b99500c3f5046669
+15	57	1754652152848994287	.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
+15	57	1754652152848994287	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake	8da9476f732e1058
+57	95	1754652152883991809	.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
+57	95	1754652152883991809	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp	7736edae401f0e04
+57	440	1754652153214968446	.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
+57	440	1754652153214968446	/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp	ece61f15c6c3fd1c
+440	849	1754652153635938782	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appIntroToQtQuick_raw_qml_0.cpp.o	6c6752b9da0e793f
+440	7993	1754652160750446204	CMakeFiles/appIntroToQtQuick.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appIntroToQtQuick_Main_qml.cpp.o	b420d8a549547e0d
+7993	8717	1754652161500395255	appIntroToQtQuick	bf06220ade3a6eab

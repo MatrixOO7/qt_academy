@@ -3,7 +3,6 @@ pragma ComponentBehavior: Bound
 // from inside any component declarations in this file
 
 import QtQuick
-import QtQuick.Layouts
 
 Window {
     id: window
@@ -305,10 +304,7 @@ Window {
         Image {
             source: "images/power.svg"
             anchors {
-                top: parent.top
-                bottom: parent.bottom
-                left: parent.left
-                right: parent.right
+                fill: parent
                 margins: 5
             }
         }
@@ -359,12 +355,6 @@ Window {
                     right: parent.right
                 }
                 height: tvControl.muted ? 0.0 :  parent.height * tvControl.volume
-            }
-
-            Timer {
-                running: tvControl.muted
-                interval: 500
-                repeat: true
             }
         }
 

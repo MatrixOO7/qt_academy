@@ -1,5 +1,0 @@
-module IntroToQtQuick
-typeinfo appIntroToQtQuick.qmltypes
-prefer :/qt/qml/IntroToQtQuick/
-Main 1.0 Main.qml
-

@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appIntroToQtQuick_FILE /home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/appIntroToQtQuick)
-set(__QT_DEPLOY_TARGET_appIntroToQtQuick_TYPE EXECUTABLE)

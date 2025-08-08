@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/IntroToQtQuick">
-    <file alias="qmldir">/home/mrbombastic/Software/Qt Academi/qt_academy/StartingProject_TV/build/Desktop_Qt_6_7_2-Debug/IntroToQtQuick/qmldir</file>
-  </qresource>
-</RCC>
-
